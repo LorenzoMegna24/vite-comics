@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  border: 1px solid black;
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+    .logo{
+      height: 60px;
+      img{
+        height: 100%;
+      }
+    }
+    ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li{
+        list-style-type: none;
+        margin: 0 15px;
+        a{
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
