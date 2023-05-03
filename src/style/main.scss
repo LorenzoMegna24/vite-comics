@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+//header
 header{
   border: 1px solid black;
   nav{
@@ -26,6 +28,49 @@ header{
         a{
           text-decoration: none;
           text-transform: uppercase;
+          color: black;
+          &:hover{
+            color: rgb(45, 130, 233);
+            border-bottom: solid 4px rgb(45, 130, 233);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// main
+
+main{
+
+  .content{
+    background-color: black;
+    color: white;
+    height: 150px;
+  }
+  .links{
+    background-color:  rgb(45, 130, 233);
+    ul{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      li{
+        list-style-type: none;
+        a{
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          color: white;
+          height: 60px;
+          margin: 50px 0;
+          img{
+            height: 70%;
+          }
+          span{
+            margin-left: 10px;
+            text-transform: uppercase;
+          }
         }
       }
     }
