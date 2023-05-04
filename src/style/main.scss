@@ -7,11 +7,11 @@
 //header
 header{
   border: 1px solid black;
+  height: 105px;
   nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 15px 0;
     .logo{
       height: 60px;
       img{
@@ -25,14 +25,15 @@ header{
       li{
         list-style-type: none;
         margin: 0 15px;
+        line-height: 100px;
+        &:hover{
+          color: rgb(45, 130, 233);
+          border-bottom: solid 4px rgb(45, 130, 233);
+        }
         a{
           text-decoration: none;
           text-transform: uppercase;
           color: black;
-          &:hover{
-            color: rgb(45, 130, 233);
-            border-bottom: solid 4px rgb(45, 130, 233);
-          }
         }
       }
     }
