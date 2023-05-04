@@ -45,14 +45,28 @@ header{
 // main
 
 main{
-
+  .jumbo{
+    background-image: url(../../public/img/jumbotron.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    span{
+      color: white;
+      background-color: rgb(45, 130, 233);
+      padding: 10px 10px;
+      position: absolute;
+      bottom: -25px;
+      left: 30px;
+    }
+  }
   .content{
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 20px 10px;
+    padding: 50px 10px;
     .card{
       margin: 0 auto;
       width: calc((100% / 6) - 2%);
@@ -119,7 +133,7 @@ footer{
       background-position: center right;
       margin: 0 auto;
       width: 80%;
-      
+
       div{
         margin-right: 25px;
         padding: 20px 0;
@@ -131,7 +145,7 @@ footer{
           padding-bottom: 15px;
           li{
             line-height: 180%;
-            
+
           }
           a{
             text-decoration: none;
@@ -152,7 +166,7 @@ footer{
         color: white;
         background-color: transparent;
         border: 3px solid rgb(45, 130, 233);
-        padding: 10px;  
+        padding: 10px;
       }
     }
     .socila-link{

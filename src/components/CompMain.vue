@@ -88,6 +88,10 @@
 
 <template>
   <main>
+    <div class="jumbo">
+      <!-- <img src="../../public/img/jumbotron.jpg" alt=""> -->
+      <span>CURRENT SERIES</span>
+    </div>
     <div class="content">
       <CompComics 
       v-for="(element, index) in comics" 
