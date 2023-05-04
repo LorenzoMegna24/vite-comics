@@ -13,7 +13,7 @@
       <div>
         <ul>
           <li><a href="/">characters</a></li>
-          <li><a href="/">comics</a></li>
+          <li class="active"><a href="/">comics</a></li>
           <li><a href="/">movies</a></li>
           <li><a href="/">tv</a></li>
           <li><a href="/">games</a></li>
@@ -30,5 +30,8 @@
 </template>
 
 <style lang="scss" scoped>
-
+.active{
+  color: rgb(45, 130, 233);
+  border-bottom: solid 4px rgb(45, 130, 233);
+}
 </style>

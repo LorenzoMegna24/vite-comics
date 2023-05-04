@@ -11,43 +11,57 @@
         <div>
           <h3>DC CCOMICS</h3>
           <ul>
-            <li>DC comics</li>
-            <li>DC comics</li>
-            <li>DC comics</li>
-            <li>DC comics</li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+          </ul>
+          <h3>SHOP</h3>
+          <ul>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
           </ul>
         </div>
         <div>
           <h3>DC</h3>
           <ul>
-            <li>DC comics</li>
-            <li>DC comics</li>
-            <li>DC comics</li>
-            <li>DC comics</li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
           </ul>
         </div>
         <div>
           <h3>SITES</h3>
           <ul>
-            <li>DC comics</li>
-            <li>DC comics</li>
-            <li>DC comics</li>
-            <li>DC comics</li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
+            <li><a href="">DC comics</a></li>
           </ul>
         </div>
         <div>
-          <h3>SHOP</h3>
-          <ul>
-            <li>DC comics</li>
-            <li>DC comics</li>
-            <li>DC comics</li>
-            <li>DC comics</li>
-          </ul>
+          
         </div>
       </div>
-      <div class="logo-footer">
+      <!-- <div class="logo-footer">
         <img src="../../public/img/dc-logo-bg.png" alt="">
-      </div>
+      </div> -->
     </div>
     <div class="socials">
       <div class="accesso">
